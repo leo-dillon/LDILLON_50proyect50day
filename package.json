@@ -1,0 +1,25 @@
+{
+  "name": "ldillon_50proyect50day",
+  "version": "1.0.0",
+  "description": "Estoy copiando 50PROYECT50DAY con la finalidad de terminar de dominar CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-dillon/LDILLON_50proyect50day.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "GIT"
+  ],
+  "author": "Ldillon - jeannotegui@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leo-dillon/LDILLON_50proyect50day/issues"
+  },
+  "homepage": "https://github.com/leo-dillon/LDILLON_50proyect50day#readme"
+}
