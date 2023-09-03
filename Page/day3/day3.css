@@ -1,0 +1,127 @@
+.day3{
+  width: 100%;
+  height: auto;
+  padding: 20px 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.menu{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  background-color: blueviolet;
+  border-radius: 100%;
+  rotate: 0deg;
+  z-index: 2;
+  transition: rotate 0.9s ease-in;
+}
+.menu .btnMenu{
+  border: 0;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  /* background: none; */
+  background-image: url("../../../IMG/menu.png");
+  background-position: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+.menu .btnCierreMenu{
+  border: 0;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-image: url("../../../IMG/cruz.png");
+  background-position: center;
+  background-color: transparent;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%);
+  cursor: pointer;
+}
+.menu .MenuEscondido{
+  min-width: 72px;
+  width: max-content;
+  height: 80px;
+  padding: 90px  0 0;
+  gap: 12px 0;
+  rotate: 180deg;
+  z-index: -4;
+  position: absolute;
+  top: -120px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-top-right-radius: 20px ;
+}
+.menu .MenuEscondido li{
+  padding: 4px 12px;
+  box-sizing: border-box;
+  z-index: 2;
+  cursor: pointer;
+  font-size: 20px;
+}
+.menu .MenuEscondido li:hover{
+  z-index: 2;
+  cursor: pointer;
+  background-color: var(--shadow-black-lowhover);
+}
+
+.contenedorGoblal{
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  rotate: 0 deg;
+  transform-origin: button left;
+  transition: rotate 0.9s ease-in;
+}
+.contenido{
+  width: 100%;
+  height: auto;
+}
+.contenido_title{
+  margin-top: 53px;
+  margin-left: 8px;
+  color: var(--color-text-segundo);
+  font-size: 52px;
+  line-height: 38px;
+  font-weight: bold;
+}
+.contenido_subTitle{
+  margin-left: 8px;
+  color: var(--color-text-tercero);
+}
+.contenido_primerText,
+.MyDog_text{
+  margin: 30px 0;
+  font-size: 20px;
+  
+}
+.MyDog{
+  display: flex;
+  flex-direction: column;
+}
+.MyDog__title{
+  margin: 36px 0 16px;
+  color: var(--color-text-segundo);
+  font-size: 40px;
+  font-weight: bold;
+}
+.MyDog__img{
+  width: 70%;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+

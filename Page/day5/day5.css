@@ -1,0 +1,42 @@
+.day5{
+  min-width: 200px;
+  width: 100%;
+  height: calc(100vh - 81px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor{
+  height: 100%;
+  position: relative;
+  margin: 0 32px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen{
+  height: 500px;
+  filter: blur(0px);
+  border-radius: 20px;
+  transition: box-shadow .3s;
+}
+.imagen:hover{
+  box-shadow: 0 0 8px 0px var(--color-background-type-shadow-1);
+}
+.pantallaCarga{
+  width: max-content;
+  height: min-content;
+  padding: 8px;
+  margin: auto;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-text-segundo);
+  border-radius: 20px;
+  font-size: 50px;
+  color: black;
+  cursor: default;
+}

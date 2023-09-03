@@ -1,0 +1,41 @@
+.day10{
+  width: 100%;
+  height: calc(100vh - 81px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor{
+  min-width: 300px;
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--shadow-black-low);
+  padding: 20px;
+}
+.contenedor__descripcion{
+  color: var(--color-text-primero);
+  font-size: 26px;
+  font-weight: 500;
+}
+.contenedor__reto{
+  width: 80%;
+  background-color: var(--shadow-black-lowhover);
+  padding: 30px;
+  text-align: balance;
+}
+.button1{
+  height: 60px;
+  padding: 0 12px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: var(--color-background-type-3);
+  cursor: pointer;
+}
+.button1:hover{
+  background-color: var(--color-background-type-2);
+}

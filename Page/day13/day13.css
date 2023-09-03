@@ -1,0 +1,50 @@
+.day13{
+  width: 100%;
+  min-height: 400px;
+  min-height: calc(100vh - 81px);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor{
+  min-width: 200px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  padding: 20px;
+  background-color: var(--shadow-black-low);
+  border-radius: 12px;
+}
+.contenedor__description{
+  margin: 0 0 12px;
+  word-break: break-all;
+}
+.contenedor__input{
+  height: 100px;
+  width: calc(100% - 32px);
+  margin: 12px 0;
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: black;
+  border: 4px solid paleturquoise;
+}
+.contenedor__elegibles{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.elegible{
+  width: max-content;
+  max-width: calc(100% - 32px);
+  height: auto;
+  padding: 12px 16px;
+  background-color: var(--shadow-black-low);
+  border-radius: 12px;
+  word-break: break-all;
+}
+.elegido{
+  background-color: red;
+}

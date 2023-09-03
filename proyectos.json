@@ -1,0 +1,277 @@
+{
+   "proyectos":
+      {
+         "title": "50 Proyect 50 Days",
+         "description": "50 miniproyectos únicos para mejorar tus habilidades en HTML, CSS y JavaScript.",
+         "creditos":{
+            "nombre": "Bradtraversy",
+            "github": "https://github.com/bradtraversy/50projects50days"
+         },
+         "paginas":[
+            {
+               "completado": true,
+               "day": 1,
+               "link":"Expanding Cards",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day": 2,
+               "link":"Progress Steps",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day":3,
+               "link":"rotating Navigation Animation",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day":4 ,
+               "link":"Hidden Search Widget",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day":5 ,
+               "link":"Blurry Loading",
+               "assets": ["html", "css"]
+            },
+            {
+               "completado": true,
+               "day":6 ,
+               "link":"Scroll Animation",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day":7 ,
+               "link":"Split Landing Page",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day":8 ,
+               "link":"Form Input Wave",
+               "assets": ["html", "css"]
+            },
+            {
+               "completado": true,
+               "day":9 ,
+               "link":"Sound Board",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day":10 ,
+               "link":"Dad Jokes",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day":11 ,
+               "link":"Event Keycodes",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day":12 ,
+               "link":"Faq Collapse",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day":13 ,
+               "link":"Random Choice Picker",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": true,
+               "day": 14,
+               "link":"Animated Navigation",
+               "assets": ["html", "css", "js"]
+            },
+            {
+               "completado": false,
+               "day": 15,
+               "link":"Incrementing Counter"
+            },
+            {
+               "completado": false,
+               "day": 16,
+               "link":"Drink Water"
+            },
+            {
+               "completado": false,
+               "day": 17,
+               "link":"Movie App"
+            },
+            {
+               "completado": false,
+               "day": 18,
+               "link":"Background Slider"
+            },
+            {
+               "completado": false,
+               "day": 19,
+               "link":"Theme Clock"
+            },
+            {
+               "completado": false,
+               "day": 20,
+               "link":"Button Ripple Effect"
+            },
+            {
+               "completado": false,
+               "day": 21,
+               "link":"Drag N Drop"
+            },
+            {
+               "completado": false,
+               "day": 22,
+               "link":"Drawing App"
+            },
+            {
+               "completado": false,
+               "day": 23,
+               "link":"Kinetic Loader"
+            },
+            {
+               "completado": false,
+               "day": 24,
+               "link":"Content Placeholder"
+            },
+            {
+               "completado": false,
+               "day": 25,
+               "link":"Sticky Navbar"
+            },
+            {
+               "completado": false,
+               "day": 26,
+               "link":"Double Vertical Slider"
+            },
+            {
+               "completado": false,
+               "day": 27,
+               "link":"Toast Notification"
+            },
+            {
+               "completado": false,
+               "day": 28,
+               "link":"Github Profiles"
+            },
+            {
+               "completado": false,
+               "day": 29,
+               "link":"Double Click Heart"
+            },
+            {
+               "completado": false,
+               "day": 30,
+               "link":"Auto Text Effect"
+            },
+            {
+               "completado": false,
+               "day": 31,
+               "link":"Password Generator"
+            },
+            {
+               "completado": false,
+               "day": 32,
+               "link":"Good Cheap Fast"
+            },
+            {
+               "completado": false,
+               "day": 33,
+               "link":"Notes App"
+            },
+            {
+               "completado": false,
+               "day": 34,
+               "link":"Animated Countdown"
+            },
+            {
+               "completado": false,
+               "day": 35,
+               "link":"Image Carousel"
+            },
+            {
+               "completado": false,
+               "day": 36,
+               "link":"Hoverboard"
+            },
+            {
+               "completado": false,
+               "day": 37,
+               "link":"Pokedex"
+            },
+            {
+               "completado": false,
+               "day": 38,
+               "link":"Mobile Tab Navigation"
+            },
+            {
+               "completado": false,
+               "day": 39,
+               "link":"Password Strength Background"
+            },
+            {
+               "completado": false,
+               "day": 40,
+               "link":"3d Background Boxes"
+            },
+            {
+               "completado": false,
+               "day": 41,
+               "link":"Verify Account Ui"
+            },
+            {
+               "completado": false,
+               "day": 42,
+               "link":"Live User Filter"
+            },
+            {
+               "completado": false,
+               "day": 43,
+               "link":"Feedback Ui Design"
+            },
+            {
+               "completado": false,
+               "day": 44,
+               "link":"Custom Range Slider"
+            },
+            {
+               "completado": false,
+               "day": 45,
+               "link":"Netflix Mobile Navigation"
+            },
+            {
+               "completado": false,
+               "day": 46,
+               "link":"Quiz App"
+            },
+            {
+               "completado": false,
+               "day": 47,
+               "link":"Testimonial Box Switcher"
+            },
+            {
+               "completado": false,
+               "day": 48,
+               "link":"Random Image Feed"
+            },
+            {
+               "completado": false,
+               "day": 49,
+               "link":"Todo List"
+            },
+            {
+               "completado": false,
+               "day": 50,
+               "link":"Insect Catch Game}"
+            }
+         ]
+      }
+} 

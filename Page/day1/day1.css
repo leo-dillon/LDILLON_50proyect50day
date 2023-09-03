@@ -1,0 +1,17 @@
+.day1{
+  height: calc(100vh - 86px);
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+img{
+  width: 16%;
+  height: 90%;
+  margin: 0 4px;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: width .3s ;
+}

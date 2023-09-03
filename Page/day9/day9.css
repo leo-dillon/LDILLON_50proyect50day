@@ -1,0 +1,21 @@
+.day9{
+  height: calc(100vh - 81px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.button1{
+  min-width: max-content;
+  width: 100px;
+  height: 60px;
+  padding: 4px 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: var(--color-background-type-1);
+  cursor: pointer;
+}
+.button1:hover{
+  background-color: var(--color-background-type-2);
+
+}

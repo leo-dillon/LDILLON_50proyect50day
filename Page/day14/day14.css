@@ -1,0 +1,57 @@
+.day14{
+  width: 100%;
+  min-height: calc(100vh - 81px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation{
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-background-type-3);
+  transform-origin: top right;
+  transition: rotate 3s ease-in-out;
+}
+.navigation__links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link{
+  padding: 8px;
+  rotate: 0deg;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  transition: color .6s ease-in-out, rotate .4s ease-in;
+}
+.link:hover{
+  color: red;
+  font-weight: 600;
+}
+.navigation__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--color-background-type-1);
+  padding: 2px 20px 0;
+}
+.navigation__button img[alt="Close"]{
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  rotate: 0;
+  cursor: pointer;
+  transition: width .2s , height .2s;
+}
+.navigation__button img[alt="Menu"]{
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  rotate: 0;
+  cursor: pointer;
+  transition: width .2s , height .2s;
+}

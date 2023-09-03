@@ -1,0 +1,59 @@
+.day7{
+   display: flex;
+}
+.izquierdo{
+   height: 80vh;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-image: url(https://images.pexels.com/photos/11627652/pexels-photo-11627652.jpeg?auto=compress&cs=tinysrgb&dpr=1);
+   background-position: center;
+   background-size: cover;
+   transition: width .8s;
+}
+.derecho{
+   height: 80vh;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-image: url(https://images.pexels.com/photos/9744324/pexels-photo-9744324.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+   background-position: center;
+   background-size: cover;
+   transition: width .8s;
+}
+.izquierdoDiv,
+.derechoDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+   background-color: var(--shadow-black-low);
+   border-radius: 20px;
+   transition: background-color .4s;
+
+}
+.izquierdoDiv h2,
+.derechoDiv h2{
+   cursor: default;
+   margin-bottom: 8px;
+}
+.izquierdoDiv:hover,
+.derechoDiv:hover{
+   background-color: var(--shadow-black-lowhover);
+}
+.izquierdo:hover,
+.derecho:hover{
+   width: 100%;
+}
+.button1{
+  background-color: bisque;
+  font-weight: bold;
+  color: black;
+  padding: 8px;
+  border-radius: 12px;
+}
