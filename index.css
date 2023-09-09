@@ -173,6 +173,7 @@
 .proyect:hover{
   background-color: var(--color-background-type-1);
   box-shadow: 0 0 10px 0px var(--color-background-type-shadow-1);
+  background-size: 110%;
 }
 .proyect:hover .proyect_title,
 .proyect:hover .proyect_go{

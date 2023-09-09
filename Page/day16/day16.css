@@ -1,0 +1,108 @@
+.day16{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container{
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  padding: 12px;
+  background-color: var(--shadow-black-low);
+  box-shadow: 0 0 8px 20px var(--shadow-black-low);
+}
+.container__title{
+  margin-bottom: 12px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.container__goal{
+  font-size: 18px;
+  color: rgb(250, 243, 231);
+}
+.container__bottle{
+  width: 120px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 ;
+  border-radius: 4px 4px 32px 32px ;
+  background-color: white;
+  border: 4px solid blue;
+  overflow: hidden;
+}
+.bottle__remained{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: height .3s;
+}
+.bottle__remained__litros{
+  font-size: 24px;
+  color: blue;
+  margin-bottom: 4px;
+}
+.bottle__remained__text{
+  font-size: 12px;
+  color: blue;
+}
+.bottle__drinked{
+  width: 100%;
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(113, 223, 250);
+  color: blue;
+  font-weight: bold;
+  font-size: 32px;
+  overflow: hidden;
+  transition: height .3s;
+}
+.container__description{
+  font-size: 18px;
+  color: white;
+  margin-bottom: 12px;
+}
+.container__cups{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 16px;
+}
+.cup{
+  width: 12.5%;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4px;
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 4px 4px 16px 16px;
+  cursor: pointer;
+  transform-origin: bottom;
+  transition: background-color .2s;
+}
+.cup.activado{
+  background-color: rgb(113, 223, 250);
+  color: black;
+}
+.cup__bold{
+  color: blue;
+}

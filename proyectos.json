@@ -93,14 +93,16 @@
                "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 15,
-               "link":"Incrementing Counter"
+               "link":"Incrementing Counter",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 16,
-               "link":"Drink Water"
+               "link":"Drink Water",
+               "assets": ["html", "css", "js"]
             },
             {
                "completado": false,
