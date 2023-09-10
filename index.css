@@ -193,33 +193,38 @@
 }
 
 /* EMAIL */
-.email{
-  height: calc(100vh - 64px);
+.contact{
+  height: calc(100vh - 160px);
   width: 80%;
-  max-width: 600px;
-  margin: auto;
+  max-width: 1000px;
+  margin: 20px 0;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  background-color: var(--color-background-type-2);
 }
-.email__text{
-  font-size: 40px;
+.contact__text{
+  font-size: 36px;
   text-align: center;
   cursor: default;
+  opacity: 0.7;
 }
-.email__form{
+.contact_div{
+  display: flex;
+  flex-direction: row;
+}
+.contact__form{
   width: 100%;
+  max-width: 450px;
+  margin-left: 32px;
   padding: 20px 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: var(--color-background-type-1);
-
 }
 .field {
   min-width: 300px;
-  width: 40%;
+  width: 100%;
   margin-bottom: 16px;
 }
 .field label {
@@ -229,8 +234,9 @@
 }
 .field input,
 .field textarea{
-  width: 100%; 
-  padding: 0 8px;
+  width: calc(100% - 20px); 
+  padding-top: 4px;
+  padding-left: 12px ;
   display: block;
   line-height: 1.5;
   font-size: 18px;
@@ -239,13 +245,14 @@
   color: black;
 }
 .field textarea{
-  max-width: 350px;
+  max-width: 450px;
   max-height: 200px;
   height: 70px;
   
 }
 .buttonEnviar{
-  padding: 12px 30px;
+  width: 100%;
+  padding: 12px 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -257,10 +264,20 @@
   transition: background-color .3s font-weight .4s;
 }
 .buttonEnviar:hover {
-    background-color: var(--color-background-type-shadow-1);
+  background-color: var(--color-background-type-1);
   font-weight: bold;
 }
-img[alt="enviar"]{
-  width: 16px;
-  height: 16px;
+.contact_redes{
+  width: calc(100% - 64px);
+  margin: auto 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_redes p {
+  font-size: 22px;
+}
+.contact_redes_1{
+  margin-top: 20px;
+  width: 100px;
 }

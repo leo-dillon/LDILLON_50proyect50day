@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,30 +49,44 @@
       <div class="containerProyect">
       </div>
     </section>
-    <article class="email">
-      <h3 class="email__text">Si la página te ha gustado, ¡házmelo saber!</h3>
-      <form class="email__form" id="form" action="https://formsubmit.co/jeannotegui@gmail.com" method="POST">
-        <div class="field">
-          <label for="from_name">Nombre</label>
-          <input type="text" name="from_name" id="from_name" placeholder="Marcelo">
+    <article class="contact">
+      <h3 class="contact__text">Si la página te ha gustado, ¡házmelo saber!</h3>
+      <div class="contact_div">
+        <form class="contact__form" id="form" action="https://formsubmit.co/jeannotegui@gmail.com" method="POST">
+          <div class="field">
+            <label for="from_name">Nombre</label>
+            <input type="text" name="from_name" id="from_name" placeholder="Marcelo">
+          </div>
+          <div class="field">
+            <label for="from_apellido">Apellido</label>
+            <input type="text" name="from_apellido" id="from_name" placeholder="Dillon">
+          </div>
+          <div class="field">
+            <label for="asunto">Email</label>
+            <input type="text" name="email" id="email" placeholder="EduardoMail@hotmail.com">
+          </div>
+          <div class="field">
+            <label for="message">Comentario</label>
+            <textarea type="comments" name="comments" id="message" placeholder="Me parece muy bonita la página" cols="15" rows="5"></textarea>
+          </div>
+          <button class="buttonEnviar" type="submit" id="button"> 
+              Enviar   
+          </button>
+        </form>
+        <div class="contact_redes">
+          <p>
+            Hola soy Leonardo Dillon, un desarrollador Front-end en desarrollo cons tante. <br>
+            Si quieres contactarte conmigo, puedes usar este formulario o puedes encontrarme en mis redes. <br>
+            Saludos!!
+          </p>
+          <picture class="red_1">
+            <a href="https://www.instagram.com/leonardonahueldillon/">
+              <img class="contact_redes_1" src="./IMG/Redes/instagram.png" alt="instagram">
+            </a>
+          </picture>
+
         </div>
-        <div class="field">
-          <label for="from_apellido">Apellido</label>
-          <input type="text" name="from_apellido" id="from_name" placeholder="Dillon">
-        </div>
-         <div class="field">
-           <label for="asunto">Email</label>
-           <input type="text" name="email" id="email" placeholder="EduardoMail@hotmail.com">
-         </div>
-         <div class="field">
-           <label for="message">Comentario</label>
-           <textarea type="comments" name="comments" id="message" placeholder="Me parece muy bonita la página" cols="15" rows="5"></textarea>
-         </div>
-         <button class="buttonEnviar" type="submit" id="button"> 
-            Enviar   
-            <img src="./IMG/enviar-mensaje.png" alt="enviar">
-         </button>
-       </form>
+      </div>
    </article>
   </main>
 </body>
