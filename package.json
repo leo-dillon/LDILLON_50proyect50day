@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/leo-dillon/LDILLON_50proyect50day/issues"
   },
-  "homepage": "https://github.com/leo-dillon/LDILLON_50proyect50day#readme"
+  "homepage": "https://github.com/leo-dillon/LDILLON_50proyect50day#readme",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
