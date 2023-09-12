@@ -8,7 +8,7 @@ LogoBradtravers?.addEventListener('click', () => {
 })
 
 function createProyects () {
-  fetch('./proyectos.json')
+  fetch('/LDILLON_50proyect50day.github.io/proyectos.json')
     .then(res => res.json())
     .then(data => {
       const proyects = data.proyectos.paginas
