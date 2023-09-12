@@ -8,7 +8,7 @@ LogoBradtravers?.addEventListener('click', () => {
 })
 
 function createProyects () {
-  fetch('../proyectos.json')
+  fetch('./proyectos.json')
     .then(res => res.json())
     .then(data => {
       const proyects = data.proyectos.paginas
@@ -37,7 +37,6 @@ function createProyects () {
     })
 }
 createProyects ()
-console.log('asd')
 const handleClick = (e) => {
   const isMainEvent = e.button === 0
   console.log(isMainEvent)
