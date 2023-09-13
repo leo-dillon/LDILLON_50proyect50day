@@ -20,27 +20,24 @@ function createProyects () {
           const card = document.createElement('article')
           card.classList.add('proyect')
           card.innerHTML = `
-          <div class="proyect_title">
-            <h2 class="proyect_Name">${proyect.link}</h2>
-            <p class="proyect_day">día ${proyect.day}</p>
-          </div>
-              <div class="proyect_assets">
-                ${imgLenguajes.join('')}
-              </div>
-              <a class="proyect_go" href="./Page/day${proyect.day}/day${proyect.day}.html" >Ver</a>
+            <div class="proyect_title">
+              <h2 class="proyect_Name">${proyect.link}</h2>
+              <p class="proyect_day">día ${proyect.day}</p>
+            </div>
+            <div class="proyect_assets">
+              ${imgLenguajes.join('')}
+            </div>
+            <a class="proyect_go" href="./Page/day${proyect.day}/day${proyect.day}.html" >Ver</a>
             `
-            card.style.backgroundImage = `url(../IMG/daysProyects/proyect${proyect.day}.png)`
+          card.style.backgroundImage = `url(../IMG/daysProyects/proyect${proyect.day}.png)`
           containerProyect.appendChild(card)
-        
         }
       })
     })
 }
 createProyects ()
-console.log('asd')
 const handleClick = (e) => {
   const isMainEvent = e.button === 0
-  console.log(isMainEvent)
   const isModifiedEvent = e.metaKey || e.altKey || e.ctrlKey || e.shiftKey
   const isManageableEvent = target === undefined || target === '_self'
   if (isMainEvent && isManageableEvent && !isModifiedEvent) {

@@ -17,7 +17,6 @@ function hash () {
 }
 function navigation () {
   const hashLimpio = hash()
-  console.log(hashLimpio)
   switch (hashLimpio) {
     case MAGICSTRINGS.inicio:
       containerLoading.classList.remove('ocultar')

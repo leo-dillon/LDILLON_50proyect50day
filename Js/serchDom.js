@@ -5,7 +5,3 @@ const containerProyect = document.querySelector('.containerProyect')
 const presentAuthor = document.querySelector('.presentAuthor')
 const presentProyect = document.querySelector('.presentProyect')
 const email = document.querySelector('.email')
-
-console.log(containerLoading)
-console.log(LogoBradtravers)
-
