@@ -15,7 +15,7 @@ function createProyects () {
       proyects.forEach((proyect) => {
         if (proyect.completado !== false) {
           let imgLenguajes = proyect.assets.map((lenguajeImg) => {
-            return `<img class="assets" src="../IMG/Lenguajes/${lenguajeImg}.png" alt="day${proyect.day}">`
+            return `<img class="assets" src="IMG/Lenguajes/${lenguajeImg}.png" alt="day${proyect.day}">`
           })
           const card = document.createElement('article')
           card.classList.add('proyect')
@@ -27,9 +27,9 @@ function createProyects () {
               <div class="proyect_assets">
                 ${imgLenguajes.join('')}
               </div>
-              <a class="proyect_go" href="../Page/day${proyect.day}/day${proyect.day}.html" >Ver</a>
+              <a class="proyect_go" href="Page/day${proyect.day}/day${proyect.day}.html" >Ver</a>
             `
-            card.style.backgroundImage = `url(../IMG/daysProyects/proyect${proyect.day}.png)`
+            card.style.backgroundImage = `url(IMG/daysProyects/proyect${proyect.day}.png)`
           containerProyect.appendChild(card)
         
         }
