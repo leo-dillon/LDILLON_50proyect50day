@@ -8,7 +8,7 @@ LogoBradtravers?.addEventListener('click', () => {
 })
 
 function createProyects () {
-  fetch('../proyectos.json')
+  fetch('proyectos.json')
     .then(res => res.json())
     .then(data => {
       const proyects = data.proyectos.paginas
