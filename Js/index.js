@@ -27,7 +27,7 @@ function createProyects () {
               <div class="proyect_assets">
                 ${imgLenguajes.join('')}
               </div>
-              <a class="proyect_go" href="./Page/day${proyect.day}/day${proyect.day}.html" >Ver</a>
+              <a class="proyect_go" href="../Page/day${proyect.day}/day${proyect.day}.html" >Ver</a>
             `
             card.style.backgroundImage = `url(../IMG/daysProyects/proyect${proyect.day}.png)`
           containerProyect.appendChild(card)

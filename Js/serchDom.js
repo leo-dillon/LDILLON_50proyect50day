@@ -4,6 +4,6 @@ const LogoBradtravers = document.querySelector('.presentAuthor_header_derecha_im
 const containerProyect = document.querySelector('.containerProyect')
 const presentAuthor = document.querySelector('.presentAuthor')
 const presentProyect = document.querySelector('.presentProyect')
-const email = document.querySelector('.email')
+const email = document.querySelector('.contact')
 
 
