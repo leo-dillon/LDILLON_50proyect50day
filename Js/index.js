@@ -37,10 +37,8 @@ function createProyects () {
     })
 }
 createProyects ()
-console.log('asd')
 const handleClick = (e) => {
   const isMainEvent = e.button === 0
-  console.log(isMainEvent)
   const isModifiedEvent = e.metaKey || e.altKey || e.ctrlKey || e.shiftKey
   const isManageableEvent = target === undefined || target === '_self'
   if (isMainEvent && isManageableEvent && !isModifiedEvent) {
