@@ -31,7 +31,6 @@ function createProyects () {
             `
             card.style.backgroundImage = `url(IMG/daysProyects/proyect${proyect.day}.png)`
           containerProyect.appendChild(card)
-        
         }
       })
     })

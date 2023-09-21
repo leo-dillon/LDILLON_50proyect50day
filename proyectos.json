@@ -105,9 +105,10 @@
                "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 17,
-               "link":"Movie App"
+               "link":"Movie App",
+               "assets": ["html", "css", "js"]
             },
             {
                "completado": false,
