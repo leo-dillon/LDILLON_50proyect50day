@@ -1,0 +1,118 @@
+.day17{
+  width: 100%;
+}
+.header{
+  height: 72px;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--color-background-type-3);
+}
+.header_picture{
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+.header_picture img{
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid green;
+}
+.header_div{
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header_div input{
+  height: 54px;
+  padding-left: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid green;
+  border-right: 0 ;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header_div_picture{
+  width: auto;
+  height: 54px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-background-type-4);
+  border: 2px solid green;
+  border-left: 0 ;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  cursor: pointer;
+}
+.header_div_picture:hover{
+  background-color: var(--color-background-type-3);
+}
+.container{
+  width: calc(100% - 40px);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 290px));
+  place-content: center;
+  gap: 20px;
+}
+.container_film{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+.container_film picture{
+  width: auto;
+  height: auto;
+}
+.imgPeliculas{
+  width: 100%;
+  border-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  z-index: -1;
+}
+.description{
+  padding: 8px;
+  width: calc(100% - 16px);
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-background-type-2);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  z-index: 1;
+}
+.description__title{
+  width: 80%;
+  margin-left: 8px;
+  font-size: 20px;
+  text-align: start;
+}
+.description__popular{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  background-color: var(--color-background-type-1);
+}
+.green{
+  color: green;
+  border: 1px solid green;
+
+}
+.red{
+  color: red;
+  border: 1px solid red;
+}
