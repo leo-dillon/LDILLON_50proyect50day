@@ -36,15 +36,17 @@
   padding-bottom: 32px;
 }
 .presentAuthor{
+  position: relative;
+  display: flex;
   width: 100%;
   max-width: 700px;
   height: 100%;
-  margin: 40px 0 20px;
-  padding: 20px;
-  padding-bottom: 0;
+  margin: 100px 0;
+  padding: 30px 40px;
   background-color: var(--color-background-type-2);
   border-radius: 12px;
   transition: background-color .3s, box-shadow .3s;
+  overflow: hidden;
 }
 .presentAuthor:hover{
   background-color: var(--color-background-type-1);
@@ -56,7 +58,7 @@
   height: auto;
 }
 .presentAuthor_header_izquierda{
-  width: 500px;
+  width: calc(100% + 24px);
 }
 .presentAuthor_header_izquierda_center{
   height: 100%;
@@ -86,19 +88,43 @@
   justify-content: center;
 }
 .presentAuthor_header_derecha .presentAuthor_header_derecha_img{
-  height: 200px;
+  height: 230px;
   border-radius: 100%;
   cursor: pointer;
 }
 .presentAuthor_header_description{
-  width: 80%;
+  width: 90%;
   margin: 24px auto 0;
   padding: 20px;
-  margin-bottom: 12px;
   border-radius: 12px;
   font-size: 18px;
   background-color: var(--color-background-type-2);
 }
+.leo{
+  transform: translateX(1000px);
+}
+.presentAuthor__button-Me{
+  width: 60px;
+  height: 64px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  border-top-left-radius: 32px;
+  background-color: aqua;
+  color: black;
+  transition: scale .3s ease-out, transform .5s ease-out;
+}
+.presentAuthor__button-Me:hover{
+  scale: 1.2;
+  transform: translateX(-4px);
+}
+
+
+
 
 .presentProyect{
   width: 100%;
@@ -185,11 +211,7 @@
 }
 
 .rotate-vertical-center{
-  animation:rotate-vertical-center 0.4s
-}
-@keyframes rotate-vertical-center{
-  0%{transform:rotateY(0)}
-  100%{transform:rotateY(360deg)}
+  animation:rotate-vertical-center 1s
 }
 
 /* EMAIL */
@@ -280,4 +302,44 @@
 .contact_redes_1{
   margin-top: 20px;
   width: 100px;
+}
+
+/*  ----------------- ANIMACIONES ----------------- */
+
+
+@keyframes rotate-vertical-center{
+  0%{transform:rotateY(0)}
+  100%{transform:rotateY(420deg)}
+}
+
+
+.transIzq{
+  animation: trasladarIzq 1s both;
+}
+.transDer{
+  animation: trasladarDer 1s both;
+}
+@keyframes trasladarIzq{
+  0%{
+    transform: translateX(0px);
+  }
+  90%{
+    transform: translateX(-1000px);
+  }
+  100%{
+    transform: translateX(-1000px);   
+    /* display: none; */
+  }
+}
+@keyframes trasladarDer{
+  0%{
+    transform: translateX(0px);
+  }
+  90%{
+    transform: translateX(1000px);
+  }
+  100%{
+    transform: translateX(1000px);   
+    /* display: none; */
+  }
 }

@@ -1,0 +1,89 @@
+.day31{
+    width: 100vw;
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+section{
+    width: max-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 24px;
+    border: 2px solid rgb(255, 219, 164);
+    border-radius: 12px;
+    background-color: rgb(61, 61, 61);
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+.contendorContraseña{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    position: relative;
+}
+.contendorContraseña .contraseña{
+    width: 100%;
+    height: 32px;
+    padding: 8px;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 4px;
+}
+.contendorContraseña img{
+    width: 32px;
+    height: 32px;
+    background-color: wheat;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+ul{
+    width: 80%;
+    margin: 12px 0 0;
+    text-align: center;
+    padding: 12px 16px;
+    border-left: 1px solid white ;
+    border-right: 1px solid white;
+}
+ul ol{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+ul ol p{
+    font-size: 1.5rem;
+}
+ul ol input{
+    color: black;
+    padding-left: 12px;
+    font-size: 1.2rem;
+    height: 24px;
+}
+ul ol input[type=checkbox]{
+    width: 24px;
+    height: 24px;
+}
+section button{
+    width: 100px;
+    height: 32px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    background-color: #EFEFEF4D;
+    border: 2px solid rgb(150, 150, 150);
+    cursor: pointer;
+}
+section button:disabled{
+    cursor: no-drop;
+}

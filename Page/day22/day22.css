@@ -1,0 +1,59 @@
+.day22{
+    width: 100vw;
+    height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#canvas{
+    border: 2px solid rgba(0, 255, 255, 0.584);
+    border-bottom: 0;
+    background-color: white;
+}
+section{
+    width: 688px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.584);
+    padding: 8px;
+    
+}
+section>div{
+    display: flex;
+    align-items: center;
+    gap: 0 24px;
+}
+section div button,
+section div input,
+section>button{
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+}
+section div button img[alt="Restar grosor del trazo"]{
+    width: 32px;
+    height: 22px;
+}
+section div input{
+    border-radius: 0;
+    padding: 0;
+}
+section div div{
+    background-color: black;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 18px;
+    border-radius: 20px;
+}
+section div button img,
+section button img{
+    width: 48px;
+    height: 48px;
+}
+button,
+input{
+    cursor: pointer;
+}

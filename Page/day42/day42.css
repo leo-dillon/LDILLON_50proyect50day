@@ -1,0 +1,81 @@
+.day42{
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+section{
+    width: 500px;
+    height: auto;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rebeccapurple;
+    background-color: rgba(102, 51, 153, 0.432);
+}
+section h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+section .description{
+    text-wrap: pretty;
+    margin-bottom: 24px;
+    text-align: center;
+}
+section article{
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    margin-top: 32px;
+    padding: 8px 0;
+    border-radius: 20px;
+    overflow-y: scroll;
+    border: 2px solid grey;
+}
+section input{
+    width: 300px;
+    height: 32px;
+    padding: 4px 12px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: rgb(197, 197, 197);
+    color: black;
+}
+article .user{
+    width: 79%;
+    height: 100px;
+    padding: 0 12px;
+    border-radius: 12px;
+    margin: 0 5% 12px;
+    display: flex;
+    border: 1px solid white;
+}
+article div picture{
+    width: 64px;
+    height: 100px;
+    margin: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article div picture img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+article div div{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+article div div p{
+    line-height: 24px;
+    
+}

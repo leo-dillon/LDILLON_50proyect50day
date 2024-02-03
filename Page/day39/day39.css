@@ -1,0 +1,86 @@
+.day39{
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+section{
+    width: 800px;
+    height: 800px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../IMG/FotosGatitos/kitti-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+}
+article{
+    width: 400px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+}
+article h1{
+    font-size: 1.8rem;
+}
+article p{
+    text-wrap: pretty;
+    margin-bottom: 32px;
+}
+form{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form div{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+form div>*{
+    width: 80%;
+    margin: 0 10% 12px;
+    text-align: start;
+}
+form div label{
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+    position: relative;
+    left: 4px;
+}
+form div input{
+    font-size: 1.2rem;
+    padding: 8px;
+    color: black;
+}
+form button{
+    width: 100px;
+    height: 32px;
+    margin-top: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+form button:active{
+    transform: translateY(2px);
+}

@@ -1,0 +1,70 @@
+.day34{
+    width: 100vw;
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorNumero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+.numero{
+    font-size: 5rem;
+    transform-origin: bottom center;
+}
+.repley{
+    width: 100px;
+    height: 32px;
+    line-height: 28px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    background-color: #707070;
+    display: none;
+    cursor: pointer;
+}
+.text{
+    font-size: 1.5rem;
+}
+
+
+@keyframes rotar{
+    0%, 5%{
+        transform: rotate(0deg) ;
+    }
+    15%, 20%{
+        transform: rotate(180deg);
+    }
+    30%, 35%{
+        transform: rotate(360deg);
+    }
+    45%, 50%{
+        transform: rotate(540deg);
+    }
+    60%, 65%{
+        transform: rotate(720deg);
+    }
+    75%, 80%{
+        transform: rotate(900deg);
+    } 
+    90%, 100%{
+        transform: rotate(1080deg);
+    }
+    
+    
+}

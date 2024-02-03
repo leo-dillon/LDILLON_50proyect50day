@@ -111,169 +111,202 @@
                "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 18,
-               "link":"Background Slider"
+               "link":"Background Slider",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 19,
-               "link":"Theme Clock"
+               "link":"Theme Clock",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 20,
-               "link":"Button Ripple Effect"
+               "link":"Button Ripple Effect",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 21,
-               "link":"Drag N Drop"
+               "link":"Drag N Drop",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 22,
-               "link":"Drawing App"
+               "link":"Drawing App",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 23,
-               "link":"Kinetic Loader"
+               "link":"Kinetic Loader",
+               "assets": ["html", "css"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 24,
-               "link":"Content Placeholder"
+               "link":"Content Placeholder",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 25,
-               "link":"Sticky Navbar"
+               "link":"Sticky Navbar",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 26,
-               "link":"Double Vertical Slider"
+               "link":"Double Vertical Slider",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 27,
-               "link":"Toast Notification"
+               "link":"Toast Notification",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 28,
-               "link":"Github Profiles"
+               "link":"Github Profiles",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 29,
-               "link":"Double Click Heart"
+               "link":"Double Click Heart",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 30,
-               "link":"Auto Text Effect"
+               "link":"Auto Text Effect",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 31,
-               "link":"Password Generator"
+               "link":"Password Generator",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 32,
-               "link":"Good Cheap Fast"
+               "link":"Good Cheap Fast",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 33,
-               "link":"Notes App"
+               "link":"Notes App",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 34,
-               "link":"Animated Countdown"
+               "link":"Animated Countdown",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 35,
-               "link":"Image Carousel"
+               "link":"Image Carousel",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 36,
-               "link":"Hoverboard"
+               "link":"Hoverboard",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 37,
-               "link":"Pokedex"
+               "link":"Pokedex",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 38,
-               "link":"Mobile Tab Navigation"
+               "link":"Mobile Tab Navigation",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 39,
-               "link":"Password Strength Background"
+               "link":"Password Strength Background",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 40,
-               "link":"3d Background Boxes"
+               "link":"3d Background Boxes",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 41,
-               "link":"Verify Account Ui"
+               "link":"Verify Account Ui",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 42,
-               "link":"Live User Filter"
+               "link":"Live User Filter",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 43,
-               "link":"Feedback Ui Design"
+               "link":"Feedback Ui Design",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 44,
-               "link":"Custom Range Slider"
+               "link":"Custom Range Slider",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 45,
-               "link":"Netflix Mobile Navigation"
+               "link":"Netflix Mobile Navigation",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 46,
-               "link":"Quiz App"
+               "link":"Quiz App",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 47,
-               "link":"Testimonial Box Switcher"
+               "link":"Testimonial Box Switcher",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 48,
-               "link":"Random Image Feed"
+               "link":"Random Image Feed",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 49,
-               "link":"Todo List"
+               "link":"Todo List",
+               "assets": ["html", "css", "js"]
             },
             {
-               "completado": false,
+               "completado": true,
                "day": 50,
-               "link":"Insect Catch Game}"
+               "link":"Insect Catch Game",
+               "assets": ["html", "css", "js"]
             }
          ]
       }

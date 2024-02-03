@@ -7,6 +7,21 @@ LogoBradtravers?.addEventListener('click', () => {
   }, 500)
 })
 
+document.addEventListener('DOMContentLoaded', function () {
+  const circle = document.getElementById('circle');
+  document.addEventListener('mousemove', (mau) => {
+    setTimeout(() => {
+      circle.style.left = (mau.clientX -5) + 'px';
+      circle.style.top = mau.clientY  + window.pageYOffset - 5 + 'px';
+    }, 50);
+  },);
+  // window.addEventListener('scroll', (e) => {
+  //   circle.style.top += e.offsetHeight;
+  //   console.log(e.offsetHeight)
+  // })
+
+});
+
 function createProyects () {
   fetch('proyectos.json')
     .then(res => res.json())
@@ -29,7 +44,7 @@ function createProyects () {
               </div>
               <a class="proyect_go" href="Page/day${proyect.day}/day${proyect.day}.html" >Ver</a>
             `
-            card.style.backgroundImage = `url(IMG/daysProyects/proyect${proyect.day}.png)`
+            card.style.backgroundImage = `url(IMG/daysProyects/proyect${proyect.day}.avif)`
           containerProyect.appendChild(card)
         }
       })

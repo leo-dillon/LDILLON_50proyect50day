@@ -18,7 +18,7 @@ const options = {
 function populares () {
   let listFilms = fetch('https://api.themoviedb.org/3/movie/popular?language=en-US&page=1&api_key=4d2c948f6429bb7d3e181b471ab143b8', options)
     .then(response => response.json())
-    .then(respon => {mostrarPeliculas(respon.results); console.log(respon.results) })
+    .then(respon => {mostrarPeliculas(respon.results); console.log(respon)})
     .catch(err => console.error(err));
 }
 populares()
@@ -32,7 +32,7 @@ function mostrarPeliculas(peliculas) {
       <div class="description">
         <p class="description__title">${pelicula.title}</p>
         <p class="description__popular ${color(pelicula.vote_average)}">${number(pelicula.vote_average)}</p>
-        <p class="description_description"></p>
+        <p class="description_description">${pelicula.overview}</p>
       </div>
     `
     contenedor.querySelector('.description_popular')
@@ -58,7 +58,7 @@ function search (text) {
   console.log(text)
   fetch(SEARCH_API + text)
     .then(res => res.json())
-    .then(respuesta => {console.log(respuesta); mostrarPeliculas(respuesta.results)})
+    .then(respuesta => {mostrarPeliculas(respuesta.results)})
 }
 function number(num) { 
   if((String(num)).length == 1){
