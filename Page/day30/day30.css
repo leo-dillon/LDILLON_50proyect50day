@@ -1,0 +1,40 @@
+.day30{
+    width: 100vw;
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+p{  
+    width: 100%;
+    max-width: 530px;
+    padding: 12px 24px;
+    font-size: 2rem;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: 1px solid white;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+label{
+    font-size: 1.3rem;
+}
+input{
+    width: 40px;
+    height: 32px;
+    font-size: 1.3rem;
+    padding-left: 8px;
+    color: black;
+}
+
+
+@keyframes step {
+    from{
+        width: 0;
+    }
+    
+}

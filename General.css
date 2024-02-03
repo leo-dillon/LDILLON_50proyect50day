@@ -17,6 +17,7 @@
   font-family: 'Courier New', Courier, monospace;
   color: #ffff;
 }
+
 .ocultar{
   display: none !important;
 }
@@ -25,9 +26,7 @@
   min-width: 100%;
   height: 100%;
   position: relative;
-  background-image: url(./IMG/Fondos/fondo.jpg);
-  background-size: cover;
-  box-shadow:inset 0 0 100px 2px rgba(0,0,0,1);
+  background-color: var(--color-text-type-1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,10 +36,18 @@
   min-width: 100%;
   height: 100%;
   position: relative;
-  box-shadow:inset 0 0 100px 2px rgba(0,0,0,1);
-  background-color: var(--color-background-type-1);
+  background-color: var(--color-text-type-1);
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#circle {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: rgb(253, 253, 253, .1);
+  box-shadow: 0 0px 60px 30px white;
+  position: absolute;
+  pointer-events: none;
 }
 

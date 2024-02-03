@@ -1,0 +1,54 @@
+.day28{
+    width: 100vw;
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+article{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article p{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+article span{
+    margin-bottom: 32px;
+    font-size: 2rem;
+}
+article .contenedor{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    position: relative;
+}
+article .contenedor .gatito{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.gatito:active{
+    rotate: 1deg;
+    box-shadow: 0 0 20px white;
+}
+.corazon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity .3s ease-out, scale .3s ease-out;
+}
+.corazon.like{
+    opacity: 1;
+    scale: 2;
+    z-index: 10;
+}

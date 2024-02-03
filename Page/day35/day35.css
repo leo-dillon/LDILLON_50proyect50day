@@ -1,0 +1,49 @@
+.day35{
+    width: 100vw;
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+article .contenedorImagenes{
+    width: 500px;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+article .contenedorImagenes .movimiento{
+    display: flex;
+    width: 500px;
+    transition: transform .3s ease-out;
+}
+article .contenedorImagenes picture{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+}
+article .contenedorImagenes picture img{
+    width: 400px;
+    margin: 0 50px;
+}
+article .botones{
+    margin: 12px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+article .botones button{
+    width: 200px;
+    height: 48px;
+    line-height: 44px;
+    font-size: 1.6rem;
+    border-radius: 12px;
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}

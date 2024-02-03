@@ -1,0 +1,77 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.day18{
+    min-height: calc(100vh - 81px);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../IMG/FotosGatitos/kitti-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    border: 4px solid grey;
+    background-color: green;
+    padding: 8px;
+    cursor: pointer;
+    transition: scale .1s ease-out, transform .1s ease-out;
+}
+button:nth-child(1){
+    margin-right: 4px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;    
+}
+button:nth-child(1):hover{
+    scale: 1.05;
+    transform: translateX(-8px);
+}
+button:nth-child(1) img{
+    transform: rotate(180deg);
+}
+button:nth-child(3){
+    margin-left: 4px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;    
+}
+button:nth-child(3):hover{
+    scale: 1.05;
+    transform: translateX(8px);
+}
+picture{
+    width: 80%;
+    max-width: 1000px;
+    border: 8px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+picture img{
+    width: 100%;
+    max-height: 80vh;
+    filter: grayscale(100%);
+    scale: 1.05;
+    animation: aparicion .4s ease-out .1s;
+}
+.animacion{
+    animation: aparicion .4s ease-out .1s;
+}
+.animacion2{
+    animation: aparicion .4s ease-out .1s reverse;
+}
+@keyframes aparicion { 
+    0%{
+        opacity: .5;
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 1;
+    }
+
+}

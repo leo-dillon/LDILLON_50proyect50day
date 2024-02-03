@@ -1,0 +1,101 @@
+.day50{
+    min-height: calc(100vh - 81px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.inicio{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid aqua;
+    background-color: rgb(39, 0, 75);
+}
+.inicio h1{
+    font-size: 4rem;
+    letter-spacing: 16px;
+    padding: 0 24px;
+    border-bottom: 1px solid white;
+    color: aquamarine;
+}
+.inicio p{
+    font-size: 1.3rem;
+    width: 90%;
+    margin: 0 auto 24px;
+    line-height: 24px;
+    text-wrap: pretty;
+}
+.inicio button,
+.fin{
+    width: 200px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer;
+    transition: scale .1s ease-out;
+}
+.inicio button:hover{
+    scale: 1.1;
+    transform: translateY(-2px);
+}
+.game{
+    position: relative;
+    width: 900px;
+    height: 600px;
+    border: 4px solid rgb(255, 162, 41);
+    padding: 12px;
+    border-radius: 12px;
+    background-color: aliceblue;
+    cursor: url(../../IMG/punto-de-mira.png), auto; 
+}
+.game img{
+    height: 64px;
+    position: absolute;
+}
+.game .anotaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: -332px;
+}
+.game .anotaciones h2,
+.game .anotaciones h3{
+    margin-bottom: 32px;
+    font-size: 2rem;
+}
+.cotenedorFin{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(82, 82, 82);
+    z-index: 10;
+}
+.cotenedorFin h2{
+    margin-bottom: 32px;
+}
+.cotenedorFin button{
+    width: 400px;
+}
+.fuera{
+    display: none;
+}

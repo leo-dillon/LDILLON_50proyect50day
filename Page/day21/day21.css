@@ -1,0 +1,32 @@
+.day21{
+    width: 100vw;
+    height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.vacio{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    transition: background-color .3s ease-out;
+}
+.imagen{
+    width: 150px;
+    height: 150px;
+    background-image: url('../../IMG/FotosGatitos/kitti-1.jpeg');
+    background-size: cover;
+}
+.hold{
+    background-color: #333;
+    
+}
+.hovered {
+    background-color: #333;
+    border-color: white;
+    border-style: dashed;
+  }

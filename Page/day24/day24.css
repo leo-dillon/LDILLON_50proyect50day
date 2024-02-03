@@ -1,0 +1,78 @@
+.day24{
+    width: 100vw;
+    height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    flex-direction: column;
+    background-color: #f6edda;
+}
+section picture{
+    display: block;
+    height: 277px;
+}
+section picture.gato img{
+    width: 100%;
+    filter: grayscale(50%);
+}
+section>div{
+    height: 200 px;
+}
+section div{
+    padding: 12px;
+}
+section div div h1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+}
+
+section div div h2{
+    font-size: 1rem;
+    color: black;
+}
+.fotter{
+    display: flex;
+}
+.fotter img{
+    width: 40px;
+    height: 48px;
+}
+.autor{
+    display: flex;
+    flex-direction: column;
+}
+.autor>*{
+    color: black;
+
+}
+.animated-bg {
+    background-image: linear-gradient(
+      to right,
+      #f4faff 0%,
+      #cfcfcf 10%,
+      #aaaaaa 20%,
+      #cfcfcf 100%
+    );
+    background-size: 200% 100%;
+    animation: bgPos 1s linear infinite;
+  }
+  @keyframes bgPos {
+    0% {
+      background-position: 50% 0;
+    }
+  
+    100% {
+      background-position: -150% 0;
+    }
+  }
+  

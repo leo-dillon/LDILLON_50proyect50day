@@ -1,0 +1,74 @@
+.day43{
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+section, article{
+    width: 600px;
+    height: 300px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 4px gray;
+}
+section p{
+    text-align: center;
+    font-size: 2rem;
+}
+section div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section div button{
+    height: 128px;
+    cursor: pointer;
+    padding: 0 4px;
+    border-radius: 12px;
+}
+section div button:active{
+    transform: translateY(2px);
+}
+section div button img{
+    height: 100px;
+}
+section>button,
+article button{
+    width: 300px;
+    height: 42px;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+section .enviar:disabled{
+    background-color: rgb(50, 14, 83);
+}
+article{
+    height: 400px;
+}
+article h2{
+    margin-top: 32px;
+}
+article picture{
+    width: 400px;
+}
+article picture img{
+    width: 400px;
+    border-radius: 32px;
+    border: 4px solid grey;
+}
+.elegido{
+    border: 2px solid red;
+    box-shadow: 0 0 12px red;
+}
+.quitar{
+    display: none;
+}

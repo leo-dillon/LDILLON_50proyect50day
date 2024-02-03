@@ -1,0 +1,27 @@
+.day36{
+    width: 100vw;
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.contenedorBloques{
+    width: 481px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    gap: 2px;
+}
+.bloque{
+    width: 16px;
+    height: 16px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    transition: background-color .1s ease-out;
+}

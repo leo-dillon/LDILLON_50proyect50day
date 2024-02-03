@@ -1,0 +1,61 @@
+.day23{
+    width: 100vw;
+    height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrado{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(52, 0, 100);
+    padding: 12px;
+}
+.cuadrado::after,
+.cuadrado::before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 6px;
+    height: 6px;
+    border: 100px solid transparent;
+    border-bottom-color: #fff;
+    animation: rotacionA 2s ease-out 0s infinite;
+}
+.cuadrado::after{
+    animation: rotacionB  2s ease-out 0s infinite ;
+}
+
+@keyframes rotacionA{
+    0%,25%{
+        rotate: 00deg;
+    }
+    50%, 75%{
+        rotate: 180deg;
+    }
+    85%{
+        border-bottom-color: #ff9114;
+    }
+    100%{
+        rotate: 360deg;
+    }
+
+    
+}
+@keyframes rotacionB{
+    0%,25%{
+        rotate: 180deg;
+    }
+    50%, 75%{
+        rotate: 360deg;
+    }
+    85%{
+        border-bottom-color: #ff9114;
+    }
+    100%{
+        rotate: 180deg;
+    }
+}

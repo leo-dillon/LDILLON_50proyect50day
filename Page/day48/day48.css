@@ -1,0 +1,33 @@
+.day48{
+    min-height: calc(100vh - 81px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 24px 0;
+}
+.contenedor{
+    width: 800px;
+    height: auto;
+    margin: 32px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagen{
+    width: 250px;
+    border-radius: 12px;
+    margin: 24px 0;
+    border: 2px solid white;
+    transition: scale .3s ease-out;
+}
+.imagen:hover{
+    scale: 1.3;
+}

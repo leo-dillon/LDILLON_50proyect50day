@@ -13,5 +13,8 @@ img{
   margin: 0 4px;
   object-fit: cover;
   border-radius: 20px;
-  transition: width .3s ;
+  transition: width .6s ;
+}
+img:nth-child(1){
+  filter: grayscale(100%);
 }

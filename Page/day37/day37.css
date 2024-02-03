@@ -1,0 +1,96 @@
+.day37{
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1{
+    margin-top: 32px;
+}
+.day37>div{
+    width: auto ;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.day37>div input{
+    width: 500px;
+    height: 32px;
+    padding: 0 12px;
+    color: #000;
+    font-size: 1.5rem;
+    border: 2px solid grey;
+    border-right: none;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.day37>div button{
+    width: 32px;
+    height: 36px;
+    border: 2px solid grey;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 12px;
+    cursor: pointer;
+    transition:background-color .3s ease-out ;
+}
+.day37>div button:hover{
+    background-color: grey;
+}
+.day37>div button img{
+    width: 28px;
+}
+
+.pokedex{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+section.contenedorPokemon{
+    margin: 24px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+section.contenedorPokemon h2{
+    font-size: 2rem;
+    margin-top: 12px;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+}
+section.contenedorPokemon picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.200);
+}
+section.contenedorPokemon picture img{
+    width: 180px;
+    height: 180px;
+}
+section.contenedorPokemon ul{
+    width: 80%;
+    margin: 0 10%;
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+}

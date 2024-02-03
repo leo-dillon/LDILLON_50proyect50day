@@ -1,0 +1,104 @@
+.day26{
+    width: 100vw;
+    max-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.texto{
+    width: 33%;
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    text-align: center;
+    background-color: brown;
+}
+.texto h1{
+    margin-bottom: 24px;
+    font-size: 4rem;
+}
+.texto p{
+    width: 500px;
+    font-size: 2rem;
+    text-align: start;
+}
+.imagen{
+    width: 60%;
+    min-height: calc(100vh - 81px);
+    margin-right: 12px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;  
+    overflow: hidden;  
+}
+img{
+    height: max-content;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 34.1%;
+}
+.buttons button:nth-child(1){
+    width: 40px;
+    height: 40px;
+    rotate: -90deg;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.buttons button:nth-child(2){
+    width: 40px;
+    height: 40px;
+    rotate: 90deg;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.buttons button:nth-child(2) img,
+.buttons button:nth-child(1) img{
+    width: 100%;
+    border-radius: 4px;
+    background-color: transparent;
+}   
+.buttons button:nth-child(2):hover,
+.buttons button:nth-child(1):hover{
+    transform: translateX(6px);
+    scale: 1.02;
+} 
+
+.abajo{
+    animation: abajo .3s ease-out  both;
+}
+.abajoB{
+    animation: abajo .3s ease-out reverse both;
+}
+.arriba{
+    animation: arriba .3s ease-out  both;
+}
+.arribaB{
+    animation: arriba .3s ease-out reverse both;
+}
+
+@keyframes abajo {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(1000px);
+    }
+}
+@keyframes arriba {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-1000px);
+    }
+}

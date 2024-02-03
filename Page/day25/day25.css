@@ -1,0 +1,66 @@
+.day25{
+    width: 100vw;
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header.head{
+    position: fixed;
+    top: 85px;
+    width: 90%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(116, 116, 116);
+    z-index: 10;
+    transition: all .3s ease-out;
+}
+header.reductor{
+    background-color: white;
+    opacity: .5;
+    color: black;
+}
+header nav ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li a{
+    font-size: 20px;
+    line-height: 37px;
+    font-size: 800;
+}
+picture{
+    width: 90%;
+    height: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+picture img{
+    width: 100%;
+    opacity: .8;
+}
+article{
+    width: 90%;
+    height: auto;
+    margin: 42px 0;
+}
+article div{
+    margin-bottom: 42px;
+}
+article div h2{
+    display: block;
+    width: max-content;
+    font-size: 32px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    margin: 0 120px 12px;
+    padding: 0 12px;
+}
+article div p{
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 20px;
+}

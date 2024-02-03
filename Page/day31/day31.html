@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Generador de contraseñas">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../General.css">
+  <link rel="stylesheet" href="../../index.css">
+  <link rel="stylesheet" href="day31.css">
+  <title>DAY 31</title>
+</head>
+<body class="ContextGlobal2">
+  <header class="Headboard">
+    <a class="Headboard_ancors" href="../../index.html">Inicio</a>
+    <a class="Headboard_ancors" href="https://github.com/leo-dillon/">Github</a>
+    <a class="Headboard_ancors" href="../../index.html#Contactame">Contactame</a>
+  </header>
+  <main class="day31">
+    <section>
+        <h1>Generador de contraseñas</h1>
+        <div class="contendorContraseña">
+            <p class="contraseña">
+            </p>
+            <img class="copiar" src="../../IMG/copia.png" alt="boton para copiar la contraseña">
+        </div>
+        <ul>
+            <ol>
+                <p>Tamaño</p>
+                <input class="tamaño" type="number" min="4" max="20" step="1" value="4">
+            </ol>
+            <ol>
+                <p>Minusculas</p>
+                <input class="minu "  type="checkbox" value="true">
+            </ol>
+            <ol>
+                <p>Mayusculas</p>
+                <input class="mayus "  type="checkbox">
+            </ol>
+            <ol>
+                <p>Números</p>
+                <input class="num "  type="checkbox">
+            </ol>
+            <ol>
+                <p>Caracter especiales</p>
+                <input class="carEsp "  type="checkbox">
+            </ol>
+        </ul>
+        <button class="crear" disabled>
+            Crear
+        </button>
+    </section>
+  </main>  
+  <script src="./day31.js" ></script>
+</body>
+</html>

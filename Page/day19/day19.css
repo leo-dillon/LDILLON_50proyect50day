@@ -1,0 +1,123 @@
+.day19{
+    height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.day19.claro>*{
+    color: white;
+}
+.day19>*{
+    color: black;
+}
+.darkMode{
+    width: 150px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform .3s ease-out;
+}
+.darkMode:active{
+    transform: translateY(-8px);
+    border: 0;
+}
+.darkMode:hover{
+    box-shadow: 0 0 4px 1px white;
+    border: 0;  
+}
+.reloj{
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 100%;
+    position: relative;
+}
+.reloj--centro{
+    width: 8px;
+    height: 8px;
+    border: 2px solid red;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+    border-radius: 100%;
+    z-index: 4;
+}
+.reloj--segundo{
+    width: 130px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(0%, 0%); */
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 1px solid red;
+    /* rotate: -90deg; */
+    transform-origin: left center;
+    z-index: 1;
+}
+.reloj--minuto{
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 0%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    rotate: -90deg;
+    transform-origin: left center;
+    z-index: 2;
+}
+.reloj--hora{
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 0%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    rotate: -90deg;
+    transform-origin: left center;
+    z-index: 3;
+}
+.tiempo{
+    display: flex;
+    flex-direction: column;
+    margin: 36px 0;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.day19.dark{
+    background-color: rgb(200, 200, 200, 90%);
+    padding: 0 48px;
+}
+.day19.dark .darkMode,
+.day19.dark .reloj--hora,
+.day19.dark .reloj--minuto,
+.day19.dark .reloj--segundo{
+    background-color: rgb(20, 20, 20);
+    color: white;
+} 
+.day19.dark .reloj--segundo{
+    border: 1px solid purple;
+}
+.day19.dark .reloj{
+    border: 6px solid purple;
+}
+.day19.dark .tiempo>*{
+    color: rgb(0, 14, 39);
+}
