@@ -28,9 +28,7 @@
   position: absolute;
   bottom: 20px;
   right: 20px;
-  /* background: none; */
-  background-image: url("./../../../IMG/menu.png");
-  background-position: center;
+  
   background-color: transparent;
   cursor: pointer;
 }
