@@ -39,8 +39,6 @@
   position: absolute;
   top: 20px;
   left: 20px;
-  background-image: url("./../../../IMG/cruz.png");
-  background-position: center;
   background-color: transparent;
   object-fit: contain;
   filter: brightness(0) saturate(100%);
