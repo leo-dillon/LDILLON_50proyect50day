@@ -29,7 +29,7 @@
   bottom: 20px;
   right: 20px;
   /* background: none; */
-  background-image: url("../../../IMG/menu.png");
+  background-image: url("./../../../IMG/menu.png");
   background-position: center;
   background-color: transparent;
   cursor: pointer;
@@ -41,7 +41,7 @@
   position: absolute;
   top: 20px;
   left: 20px;
-  background-image: url("../../../IMG/cruz.png");
+  background-image: url("./../../../IMG/cruz.png");
   background-position: center;
   background-color: transparent;
   object-fit: contain;
@@ -64,14 +64,14 @@
   justify-content: end;
   border-top-right-radius: 20px ;
 }
-.menu .MenuEscondido li{
+.menu .MenuEscondido ul li{
   padding: 4px 12px;
   box-sizing: border-box;
   z-index: 2;
   cursor: pointer;
   font-size: 20px;
 }
-.menu .MenuEscondido li:hover{
+.menu .MenuEscondido ul li:hover{
   z-index: 2;
   cursor: pointer;
   background-color: var(--shadow-black-lowhover);
