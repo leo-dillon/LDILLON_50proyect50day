@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Realizamos un login de usuarios">
   <link rel="stylesheet" href="../../General.css">
   <link rel="stylesheet" href="../../index.css">
   <link rel="stylesheet" href="day8.css">
@@ -18,8 +19,8 @@
     <form class="form">
       <h2 class="form__titulo">Please login</h2>
       <div class="inputContenedor">
-         <input class="input" type="text" required>
-         <label class="inputContenedor_text">
+         <input class="input" type="text" id="name" required>
+         <label class="inputContenedor_text" for="name">
             <span style="transition-delay: 0ms">N</span>
             <span style="transition-delay: 100ms">o</span>
             <span style="transition-delay: 150ms">m</span>
@@ -29,8 +30,8 @@
          </label>
       </div>
       <div class="inputContenedor">
-         <input class="input" type="password" required>
-         <label class="inputContenedor_text">
+         <input class="input" type="password"  id="password" required>
+         <label class="inputContenedor_text" for="password">
             <span style="transition-delay: 50ms">C</span>
             <span style="transition-delay: 100ms">o</span>
             <span style="transition-delay: 150ms">n</span>
