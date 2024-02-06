@@ -5,6 +5,7 @@ const inputText = document.querySelector('.contenedor__text')
 imgLupa.addEventListener('click',(e)=>{
    if( parseInt(e.target.parentElement.style.width) > 100 ){
       e.target.parentElement.style.width = 48 + 'px'
+      e.target.parentElement.style='padding-left: 8px; '
    } else {
       e.target.parentElement.style.width = 300 + 'px'
    }
