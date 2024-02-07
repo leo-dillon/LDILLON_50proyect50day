@@ -3,7 +3,7 @@ let anterior = document.querySelector('.anterior')
 let imagen = document.querySelector('.imagenes')
 let imagenFondo = document.querySelector('.day18')
 let linkKitty = 'http://127.0.0.1:5500/IMG/FotosGatitos/'
-
+let valor = 0
 function animation(valor, linkKitty) {
     imagenFondo.style.background = 'url(' + linkKitty + `kitti-${valor}.jpeg)` 
     imagenFondo.style.backgroundSize = 'cover'
@@ -15,7 +15,6 @@ function animation(valor, linkKitty) {
 }
 siguiente.addEventListener('click', (e) => {
     let img = imagen.children[0]
-    let valor = parseInt(img.src.split('-')[1][0])
     valor++
     (valor>5) ? valor = 1 : valor
     setTimeout(() => {
@@ -25,7 +24,6 @@ siguiente.addEventListener('click', (e) => {
 })
 anterior.addEventListener('click', (e) => {
     let img = imagen.children[0]
-    let valor = parseInt(img.src.split('-')[1][0])
     valor--
     (valor<1) ? valor = 5 : valor
     img.src = linkKitty + `kitti-${valor}.jpeg`
