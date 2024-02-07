@@ -2,7 +2,7 @@ let siguiente = document.querySelector('.posterior')
 let anterior = document.querySelector('.anterior')
 let imagen = document.querySelector('.imagenes')
 let imagenFondo = document.querySelector('.day18')
-let linkKitty = 'http://127.0.0.1:5500/IMG/FotosGatitos/'
+let linkKitty = './../../IMG/FotosGatitos/'
 let valor = 0
 function animation(valor, linkKitty) {
     imagenFondo.style.background = 'url(' + linkKitty + `kitti-${valor}.jpeg)` 
