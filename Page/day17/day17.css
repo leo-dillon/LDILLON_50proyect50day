@@ -79,6 +79,10 @@
   width: auto;
   height: auto;
 }
+.contenedorImagen{
+  width: 280px;
+  height: 420;
+}
 .imgPeliculas{
   width: 100%;
   border-radius: 12px;

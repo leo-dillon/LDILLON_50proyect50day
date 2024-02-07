@@ -28,7 +28,9 @@ function mostrarPeliculas(peliculas) {
     const contenedor = document.createElement('article')
     contenedor.classList.add('container_film')
     contenedor.innerHTML = `
-      <img class="imgPeliculas" src='${IMG_PATH + pelicula.poster_path}' alt='${pelicula.title}'>
+      <picture class="contenedorImagen">
+        <img class="imgPeliculas" src='${IMG_PATH + pelicula.poster_path}' alt='${pelicula.title}'>
+      </picture>
       <div class="description">
         <p class="description__title">${pelicula.title}</p>
         <p class="description__popular ${color(pelicula.vote_average)}">${number(pelicula.vote_average)}</p>
