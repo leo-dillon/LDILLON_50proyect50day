@@ -1,6 +1,8 @@
 const crearNota = document.querySelector('.crearNota')
 const day = document.querySelector('.day33')
-cargarNotas ()
+if(localStorage.getItem('notas')){
+    cargarNotas ()
+}
 
 crearNota.addEventListener('click', () => {
     let nota = document.createElement('article')
@@ -44,7 +46,6 @@ function guardarNotas() {
 }
 function cargarNotas () {
     let notas = JSON.parse(localStorage.getItem('notas'))
-    console.log(notas)
     notas.forEach(nota => {
         let contenedorNota = document.createElement('article')
         contenedorNota.classList.add('nota')
